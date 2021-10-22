@@ -1,15 +1,83 @@
-.header {
+/*header*/.header {
+  
+  position: fixed;
   width: 100%;
   height: 110px;
   background-color: rgb(224, 6, 6);
   display: flex;
   align-items: center;
-  .menu {
+  justify-content: space-between;
+  
+ /*menu*/.menu {
+  
     background-color: rgb(224, 6, 6);
     border: none;
+    margin-left: 50px;
     .fas {
       color: azure;
       display: flex;
+      .text {
+        font-size: 1rem;
+        margin-left: 9px;
+        margin-top: 1px;
+      }
     }
   }
+ /*svg*/.svg{
+  
+    width:179px;
+  }
+ /*.languagecompany*/ .languagecompany{
+  display: flex;
+    .lan{
+      background-color: rgb(224, 6, 6);
+      border: none;
+      .fas{
+        display: flex;
+        color: azure;
+      .text{
+        
+        font-size: 1rem;
+        margin-left: 9px;
+        margin-top: 1px;
+      }
+    }
+
+    }
+    .com{
+      background-color: rgb(224, 6, 6);
+      border: none;
+      margin-left: 25px;
+      margin-right: 40px;
+      .fas{
+        display: flex;
+        color: azure;
+
+
+      .text{
+      font-size: 1rem;
+        margin-left: 9px;
+        margin-top: 1px;
+      }
+    }
+
+    }
+    
+  }
 }
+.content {
+  height: 100%;
+ 
+  width: 100%;
+  //a
+  .a{
+    background-color: aquamarine;
+    height: 100%;
+  }
+  .b{
+    background-color: bisque;
+    height: 20%;
+  }
+}
+
+
