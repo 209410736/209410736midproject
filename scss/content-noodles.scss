@@ -58,11 +58,13 @@
   .noodles-menu-list{
     display: flex;
       flex-wrap: wrap;
+      width: 100%;
   
       .menu-item{
         margin-right: 33px;
         min-height: 230px;
         flex-basis: calc(33% - 33px);
+        width: 200px;
         
         
        .menu-img{
